@@ -1,8 +1,41 @@
 /* Fonts Start */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 /* Fonts End */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+/* Header Start */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  align-items: center;
+}
+#navbar ul {
+  display: flex;
+  margin-right: 80px;
+}
+#navbar img {
+  width: 70px;
+  margin-left: 80px;
+}
+#navbar ul li a {
+  padding: 10px 20px;
+}
+#navbar ul li a:hover {
+  border-bottom: 1px solid gold;
+}
+/* Header End */
