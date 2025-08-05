@@ -31,7 +31,6 @@ a {
 }
 .btn-primary:hover {
   background-color: rgb(223, 191, 10);
-  text-shadow: 1px black;
 }
 /* Header Start */
 header {
