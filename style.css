@@ -155,6 +155,7 @@ header * {
   font-size: 14px;
   color: #9a9a9a;
   font-weight: 600;
+  text-align: center;
 }
 #Offers .offers-items {
   display: flex;
