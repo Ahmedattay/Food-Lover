@@ -241,7 +241,7 @@ header * {
 /* !Menu End */
 
 /* ?Daytime Start */
-#daytime{
+#daytime {
   background: url("./img/daytime_bg.jpeg") center center/cover fixed no-repeat;
   color: #fff;
   text-align: center;
@@ -261,7 +261,40 @@ header * {
   font-weight: 700;
 }
 #daytime .daytime-items p:hover {
-  color:#383848;
+  color: #383848;
   cursor: pointer;
+  scale: 1.2;
 }
 /* !Daytime End */
+
+/* ?Gallery Start */
+#Gallery {
+  background: url("./img/offer-background.jpg") center center/cover fixed
+    no-repeat;
+  padding: 3rem 0 4rem 0;
+}
+#Gallery h2 {
+  color: #f4f4f4;
+  font-size: 40px;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+#Gallery .img-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+}
+#Gallery .img-gallery img {
+  width: 380px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 20px;
+  opacity: 0.5;
+}
+#Gallery .img-gallery img:hover {
+  opacity: 1;
+  scale: 1.1;
+  border-bottom: solid 2px #ffffff;
+}
+/* !Gallery End */
