@@ -6,6 +6,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -367,7 +370,8 @@ textarea {
 /* !Contact End */
 
 /* ?Footer Start */
-#footer, footer a{
+#footer,
+footer a {
   background: #383848;
   color: #f4f4f4;
   text-align: center;
