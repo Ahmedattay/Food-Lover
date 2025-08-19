@@ -1,6 +1,6 @@
-/* Fonts Start */
+/* ?Fonts Start */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-/* Fonts End */
+/* !Fonts End */
 * {
   padding: 0;
   margin: 0;
@@ -19,7 +19,7 @@ a {
   max-width: 1300px;
   margin: auto;
 }
-/* Utility Classes */
+/* *Utility Classes */
 .primary-text {
   color: rgb(223, 191, 10);
 }
@@ -43,7 +43,7 @@ a {
   margin-top: 2rem;
 }
 
-/* Header Start */
+/* ?Header Start */
 header {
   height: 100vh;
   background: url("./img/home_bg.jpeg") center center/cover no-repeat;
@@ -52,7 +52,6 @@ header {
 #navbar {
   display: flex;
   justify-content: space-between;
-
   align-items: center;
 }
 #navbar ul {
@@ -98,9 +97,9 @@ header::before {
 header * {
   z-index: 10;
 }
-/* Header End */
+/* !Header End */
 
-/* About Start */
+/* ?About Start */
 #About {
   height: 80vh;
   display: flex;
@@ -109,7 +108,8 @@ header * {
   background-color: #f4f4f4;
 }
 #About .title,
-#Offers .title {
+#Offers .title,
+#Menu .title {
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -137,9 +137,9 @@ header * {
   font-weight: 500;
   line-height: 1.6;
 }
-/* About End */
+/* !About End */
 
-/* Offer Start */
+/* ?Offer Start */
 #Offers {
   height: 80vh;
   display: flex;
@@ -182,4 +182,62 @@ header * {
   font-weight: bold;
   margin-left: 4px;
 }
-/* Offer End */
+/* !Offer End */
+
+/* ?Menu Start */
+#Menu {
+  padding: 3rem 0;
+  background-color: #f4f4f4;
+}
+#Menu h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: rgb(20, 19, 19);
+}
+#Menu .title p {
+  font-size: 14px;
+  color: #9a9a9a;
+  font-weight: 600;
+}
+#Menu .menu-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Menu .menu-items .menu-item img {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+#Menu .menu-items .menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+#Menu .menu-items .menu-item h3 {
+  color: #383848;
+  border-bottom: 2px solid gray;
+  border-radius: 9%;
+  padding-bottom: 6px;
+  position: relative;
+}
+#Menu .menu-items .menu-item span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: bold;
+}
+
+#Menu .btn {
+  display: block;
+  color: white;
+  background-color: rgb(223, 191, 10);
+  margin: auto;
+}
+#Menu .btn:hover {
+  background-color: #383848;
+  cursor: pointer;
+}
+
+/* !Menu End */
