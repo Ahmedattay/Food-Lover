@@ -129,7 +129,7 @@ Food-Lover/
 1. **Clone the repository**:
 
    ```bash
-   git clone [your-repo-url]
+   git clone [https://github.com/Ahmedattay/Food-Lover]
    cd Food-Lover
    ```
 
