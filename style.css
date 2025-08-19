@@ -365,3 +365,13 @@ textarea {
   color: #f4f4f4;
 }
 /* !Contact End */
+
+/* ?Footer Start */
+#footer, footer a{
+  background: #383848;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+}
+/* !Footer End */
