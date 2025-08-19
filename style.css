@@ -15,6 +15,10 @@ ul {
 a {
   text-decoration: none;
 }
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
 /* Utility Classes */
 .primary-text {
   color: rgb(223, 191, 10);
@@ -29,9 +33,16 @@ a {
   color: white;
   border: 1px solid white;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-secondary:hover {
   background-color: rgb(223, 191, 10);
 }
+.btn-secondary {
+  color: white;
+  background-color: rgb(44, 42, 42);
+  margin-top: 2rem;
+}
+
 /* Header Start */
 header {
   height: 100vh;
@@ -88,3 +99,41 @@ header * {
   z-index: 10;
 }
 /* Header End */
+
+/* About Start */
+#About {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #f4f4f4;
+}
+#About .title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+#About h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: rgb(20, 19, 19);
+  font-weight: 800;
+}
+#About .title p {
+  font-size: 14px;
+  color: #9a9a9a;
+  font-weight: 600;
+}
+#About .about-content {
+  display: flex;
+  justify-content: space-between;
+}
+#About .about-content img {
+  width: 450px;
+}
+#About .about-content p {
+  color: #9a9a9a;
+  margin-right: 9rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+/* About End */
