@@ -108,7 +108,8 @@ header * {
   align-content: center;
   background-color: #f4f4f4;
 }
-#About .title {
+#About .title,
+#Offers .title {
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -137,3 +138,47 @@ header * {
   line-height: 1.6;
 }
 /* About End */
+
+/* Offer Start */
+#Offers {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  background: url("./img/offer-background.jpg") center center/cover fixed;
+}
+#Offers h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: rgb(223, 191, 10);
+}
+#Offers .title p {
+  font-size: 14px;
+  color: #9a9a9a;
+  font-weight: 600;
+}
+#Offers .offers-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #9a9a9a;
+}
+#Offers .offers-items img {
+  width: 250px;
+}
+#Offers .offers-items h3 {
+  margin: 15px 0;
+  font-size: 30px;
+}
+#Offers .offers-items p {
+  font-size: 15px;
+  padding: 0 35px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+#Offers .offers-items span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 4px;
+}
+/* Offer End */
